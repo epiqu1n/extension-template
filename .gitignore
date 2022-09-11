@@ -1,0 +1,38 @@
+# System files
+.DS_Store
+
+# Build output
+dist
+!dist/manifest.json
+.tmp
+releases
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Application config files
+src/**/*.config.json
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Editor files
+.vscode
