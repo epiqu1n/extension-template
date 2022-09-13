@@ -5,7 +5,7 @@ import { BgMessageType as BGMT } from '../types/Messages';
 // import App from './components/App';
 
 /** Main */
-console.info('Running <EXTENSION_NAME_HERE> content script'); // TODO?
+console.info('Running <EXTENSION_NAME_HERE> content script');
 // initContentApp();
 
 // Event listeners
@@ -27,5 +27,5 @@ function initContentApp() {
   
   // root.render(<App />);
   
-  console.log('Initialized <EXTENSION_NAME_HERE> content app'); // TODO?
+  console.log('Initialized <EXTENSION_NAME_HERE> content app');
 }

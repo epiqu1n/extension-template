@@ -15,7 +15,7 @@ export default function App() {
   );
 
   return (<>
-    <h2>{/* TODO? EXTENSION_NAME_HERE */}</h2>
+    <h2>{/* <EXTENSION_NAME_HERE> */}</h2>
     {appBody}
   </>);
 }

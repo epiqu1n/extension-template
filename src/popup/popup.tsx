@@ -7,7 +7,7 @@ import App from './components/App';
 
 /** Main */
 initPopup();
-console.info('Running <EXTENSION_NAME_HERE> popup script'); // TODO?
+console.info('Running <EXTENSION_NAME_HERE> popup script');
 
 /** Ancillary functions */
 // Ping background script
