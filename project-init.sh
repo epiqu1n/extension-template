@@ -8,7 +8,7 @@ replace_in() {
     sed -i "s/<EXTENSION_NAME_HERE>/$name/" $filename
     sed -i "s/<EXTENSION_DESCRIPTION_HERE>/$desc/" $filename
     sed -i "s/<package-name-here>/$package/" $filename
-    sed -i "s/<AUTHOR_NAME_HERE>/$package/" $filename
+    sed -i "s/<AUTHOR_NAME_HERE>/$author/" $filename
   done
 }
 
